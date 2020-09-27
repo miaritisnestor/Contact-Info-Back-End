@@ -54,6 +54,8 @@ namespace AspNetCoreAPI.Controllers
             }
 
             _context.Entry(contactInfo).State = EntityState.Modified;
+            var contactInfos = _context.ContactInfos.Include(p => p.Phone);
+            _context.Entry(contactInfos).CurrentValues.SetValues(contactInfo);
 
             try
             {
