@@ -46,19 +46,29 @@ namespace AspNetCoreAPI.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutContactInfo(int id, ContactInfo contactInfo)
+        public async Task<IActionResult> PutContactInfo(int id, [FromBody]ContactInfo contactInfo)
         {
             if (id != contactInfo.ContactInfoId)
             {
                 return BadRequest();
             }
 
-            _context.Entry(contactInfo).State = EntityState.Modified;
-            var contactInfos = _context.ContactInfos.Include(p => p.Phone);
-            _context.Entry(contactInfos).CurrentValues.SetValues(contactInfo);
+            //_context.Entry(contactInfo).State = EntityState.Modified;
 
             try
             {
+                var dbContactInfo = _context.ContactInfos.Include(p => p.Phone).FirstOrDefault(s => s.ContactInfoId.Equals(id));
+
+                dbContactInfo.FirstName = contactInfo.FirstName;
+                dbContactInfo.LastName = contactInfo.LastName;
+                dbContactInfo.Address = contactInfo.Address;
+                dbContactInfo.Email = contactInfo.Email;
+                dbContactInfo.Phone.MobilePhone = contactInfo.Phone.MobilePhone;
+                dbContactInfo.Phone.HomePhone = contactInfo.Phone.HomePhone;
+                dbContactInfo.Phone.WorkPhone = contactInfo.Phone.WorkPhone;
+
+                //_context.ContactInfos.Update(contactInfo);
+
                 await _context.SaveChangesAsync();
             }
             catch (DbUpdateConcurrencyException)
