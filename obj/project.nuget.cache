@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RMBeB4BnhTLibFpWItuSgXw43ENm2o/KGB+IsYRirkoQ3JlYh87fgYUtuH0VeiDFzPer7Kh1x8pRj3axd8/whg==",
+  "dgSpecHash": "9TQdjNikjzeuAzdmzMMwJLKK37fVwZEvAmc+CJS3cFqXI8xQj0ElWFlm7ZB76JjMUKbiy0IxrvAWl6MFTCcTkw==",
   "success": true,
   "projectFilePath": "C:\\Users\\nesto\\Desktop\\Dataverse Project\\ContactsInfo\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI.csproj",
   "expectedPackageFiles": [
@@ -184,7 +184,15 @@
     "C:\\Users\\nesto\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\nesto\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\nesto\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\nesto\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\nesto\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\nesto\\.nuget\\packages\\xunit\\2.4.1\\xunit.2.4.1.nupkg.sha512",
+    "C:\\Users\\nesto\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\nesto\\.nuget\\packages\\xunit.analyzers\\0.10.0\\xunit.analyzers.0.10.0.nupkg.sha512",
+    "C:\\Users\\nesto\\.nuget\\packages\\xunit.assert\\2.4.1\\xunit.assert.2.4.1.nupkg.sha512",
+    "C:\\Users\\nesto\\.nuget\\packages\\xunit.core\\2.4.1\\xunit.core.2.4.1.nupkg.sha512",
+    "C:\\Users\\nesto\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
+    "C:\\Users\\nesto\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
+    "C:\\Users\\nesto\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
   "logs": []
 }

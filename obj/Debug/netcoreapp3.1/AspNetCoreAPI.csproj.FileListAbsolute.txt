@@ -153,8 +153,15 @@ C:\Users\nesto\Desktop\Dataverse Project\ContactsInfo\AspNetCoreAPI\AspNetCoreAP
 C:\Users\nesto\Desktop\Dataverse Project\ContactsInfo\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\netcoreapp3.1\AspNetCoreAPI.runtimeconfig.dev.json
 C:\Users\nesto\Desktop\Dataverse Project\ContactsInfo\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\netcoreapp3.1\AspNetCoreAPI.dll
 C:\Users\nesto\Desktop\Dataverse Project\ContactsInfo\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\netcoreapp3.1\AspNetCoreAPI.pdb
-C:\Users\nesto\Desktop\Dataverse Project\ContactsInfo\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\netcoreapp3.1\AspNetCoreAPI.csproj.CoreCompileInputs.cache
-C:\Users\nesto\Desktop\Dataverse Project\ContactsInfo\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\netcoreapp3.1\AspNetCoreAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\nesto\Desktop\Dataverse Project\ContactsInfo\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\netcoreapp3.1\AspNetCoreAPI.dll
 C:\Users\nesto\Desktop\Dataverse Project\ContactsInfo\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\netcoreapp3.1\AspNetCoreAPI.pdb
 C:\Users\nesto\Desktop\Dataverse Project\ContactsInfo\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\netcoreapp3.1\AspNetCoreAPI.genruntimeconfig.cache
+C:\Users\nesto\Desktop\Dataverse Project\ContactsInfo\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\netcoreapp3.1\xunit.abstractions.dll
+C:\Users\nesto\Desktop\Dataverse Project\ContactsInfo\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\netcoreapp3.1\xunit.assert.dll
+C:\Users\nesto\Desktop\Dataverse Project\ContactsInfo\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\netcoreapp3.1\xunit.core.dll
+C:\Users\nesto\Desktop\Dataverse Project\ContactsInfo\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\netcoreapp3.1\xunit.execution.dotnet.dll
+C:\Users\nesto\Desktop\Dataverse Project\ContactsInfo\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\nesto\Desktop\Dataverse Project\ContactsInfo\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\nesto\Desktop\Dataverse Project\ContactsInfo\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\netcoreapp3.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\nesto\Desktop\Dataverse Project\ContactsInfo\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\netcoreapp3.1\AspNetCoreAPI.csproj.CoreCompileInputs.cache
+C:\Users\nesto\Desktop\Dataverse Project\ContactsInfo\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\netcoreapp3.1\AspNetCoreAPI.MvcApplicationPartsAssemblyInfo.cache
