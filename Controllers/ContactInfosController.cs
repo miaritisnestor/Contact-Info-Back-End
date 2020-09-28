@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using AspNetCoreAPI.Models;
+using AspNetCoreAPI.Data.Validation;
 
 namespace AspNetCoreAPI.Controllers
 {
@@ -57,19 +58,23 @@ namespace AspNetCoreAPI.Controllers
 
             try
             {
-                var dbContactInfo = _context.ContactInfos.Include(p => p.Phone).FirstOrDefault(s => s.ContactInfoId.Equals(id));
+                if (new ContactInfoValidation().isMobilePhoneValid(contactInfo.Phone.MobilePhone))
+                {
+                    var dbContactInfo = _context.ContactInfos.Include(p => p.Phone).FirstOrDefault(s => s.ContactInfoId.Equals(id));
 
-                dbContactInfo.FirstName = contactInfo.FirstName;
-                dbContactInfo.LastName = contactInfo.LastName;
-                dbContactInfo.Address = contactInfo.Address;
-                dbContactInfo.Email = contactInfo.Email;
-                dbContactInfo.Phone.MobilePhone = contactInfo.Phone.MobilePhone;
-                dbContactInfo.Phone.HomePhone = contactInfo.Phone.HomePhone;
-                dbContactInfo.Phone.WorkPhone = contactInfo.Phone.WorkPhone;
+                    dbContactInfo.FirstName = contactInfo.FirstName;
+                    dbContactInfo.LastName = contactInfo.LastName;
+                    dbContactInfo.Address = contactInfo.Address;
+                    dbContactInfo.Email = contactInfo.Email;
+                    dbContactInfo.Phone.MobilePhone = contactInfo.Phone.MobilePhone;
+                    dbContactInfo.Phone.HomePhone = contactInfo.Phone.HomePhone;
+                    dbContactInfo.Phone.WorkPhone = contactInfo.Phone.WorkPhone;
 
-                //_context.ContactInfos.Update(contactInfo);
+                    //_context.ContactInfos.Update(contactInfo);
 
-                await _context.SaveChangesAsync();
+                    await _context.SaveChangesAsync();
+                }
+                    
             }
             catch (DbUpdateConcurrencyException)
             {
@@ -92,10 +97,16 @@ namespace AspNetCoreAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<ContactInfo>> PostContactInfo(ContactInfo contactInfo)
         {
-            _context.ContactInfos.Add(contactInfo);
-            await _context.SaveChangesAsync();
+            //validation logic should be in seperate class library... -> implement unit testing to this class
+            if(new ContactInfoValidation().isMobilePhoneValid(contactInfo.Phone.MobilePhone))
+            {
+                _context.ContactInfos.Add(contactInfo);
+                await _context.SaveChangesAsync();
+                return CreatedAtAction("GetContactInfo", new { id = contactInfo.ContactInfoId }, contactInfo);
+            }
 
-            return CreatedAtAction("GetContactInfo", new { id = contactInfo.ContactInfoId }, contactInfo);
+            return BadRequest();
+            
         }
 
         // DELETE: api/ContactInfos/5
