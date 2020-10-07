@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9TQdjNikjzeuAzdmzMMwJLKK37fVwZEvAmc+CJS3cFqXI8xQj0ElWFlm7ZB76JjMUKbiy0IxrvAWl6MFTCcTkw==",
+  "dgSpecHash": "2GUIMMWD0hK62Ji9vMZDtq/ZbRRISwCkuSYImcJV9ZNW+NfF/3t75uZ05Ne+RTk5aGM/iuXhht027yaS5m9HEQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nesto\\Desktop\\Dataverse Project\\ContactsInfo\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI.csproj",
+  "projectFilePath": "C:\\Users\\nesto\\Desktop\\C# .Net Projects\\Dataverse Project\\ContactsInfo\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nesto\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\nesto\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",

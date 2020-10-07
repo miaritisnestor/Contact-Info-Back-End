@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nesto\\Desktop\\Dataverse Project\\ContactsInfo\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI.csproj": {}
+    "C:\\Users\\nesto\\Desktop\\C# .Net Projects\\Dataverse Project\\ContactsInfo\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nesto\\Desktop\\Dataverse Project\\ContactsInfo\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI.csproj": {
+    "C:\\Users\\nesto\\Desktop\\C# .Net Projects\\Dataverse Project\\ContactsInfo\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nesto\\Desktop\\Dataverse Project\\ContactsInfo\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI.csproj",
+        "projectUniqueName": "C:\\Users\\nesto\\Desktop\\C# .Net Projects\\Dataverse Project\\ContactsInfo\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI.csproj",
         "projectName": "AspNetCoreAPI",
-        "projectPath": "C:\\Users\\nesto\\Desktop\\Dataverse Project\\ContactsInfo\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI.csproj",
+        "projectPath": "C:\\Users\\nesto\\Desktop\\C# .Net Projects\\Dataverse Project\\ContactsInfo\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI.csproj",
         "packagesPath": "C:\\Users\\nesto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nesto\\Desktop\\Dataverse Project\\ContactsInfo\\AspNetCoreAPI\\AspNetCoreAPI\\obj\\",
+        "outputPath": "C:\\Users\\nesto\\Desktop\\C# .Net Projects\\Dataverse Project\\ContactsInfo\\AspNetCoreAPI\\AspNetCoreAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nesto\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -113,6 +113,7 @@ namespace AspNetCoreAPI.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult<ContactInfo>> DeleteContactInfo(int id)
         {
+           
             var contactInfo = await _context.ContactInfos.FindAsync(id);
             if (contactInfo == null)
             {
